@@ -98,19 +98,20 @@ export const GlobalSearch: React.FC<GlobalSearchProps> = ({
           {searchTerm && (
             <button
               onClick={() => setSearchTerm('')}
-              className="p-1 rounded text-[#64748B] hover:text-[#1E1B4B] hover:bg-[#F1F5F9] mr-1.5 transition-all cursor-pointer"
+              className="px-1.5 py-0.5 text-[11px] text-[#64748B] hover:text-[#1E1B4B] hover:bg-[#F1F5F9] rounded mr-1 transition-all cursor-pointer"
+              title="Clear search"
             >
-              <X className="w-3.5 h-3.5" />
+              Clear
             </button>
           )}
-          <div className="hidden sm:flex items-center gap-1">
-            <kbd className="px-1.5 py-0.5 text-[10px] font-mono font-bold text-[#64748B] bg-[#F8FAFC] rounded border border-[#CBD5E1]">
-              ⌘K
-            </kbd>
-            <kbd className="px-1.5 py-0.5 text-[10px] font-mono font-bold text-[#64748B] bg-[#F8FAFC] rounded border border-[#CBD5E1]">
-              ESC
-            </kbd>
-          </div>
+          <button
+            onClick={onClose}
+            className="p-1.5 rounded-lg text-[#64748B] hover:text-[#1E1B4B] hover:bg-[#F1F5F9] transition-all cursor-pointer"
+            title="Close"
+            aria-label="Close"
+          >
+            <X className="w-4 h-4" />
+          </button>
         </div>
 
         {/* Results Body */}
