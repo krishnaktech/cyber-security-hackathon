@@ -61,9 +61,6 @@ export const LoginModal: React.FC<LoginModalProps> = ({
           <div className="mx-auto w-14 h-14 rounded-2xl bg-[#1E1B4B] border-2 border-[#ED1B24] flex items-center justify-center text-white shadow-md mb-3">
             <Shield className="w-7 h-7 text-[#ED1B24]" />
           </div>
-          <div className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#ED1B24]/10 border border-[#ED1B24]/20 text-[10px] font-bold text-[#ED1B24] uppercase tracking-wider mb-1">
-            Kerala Police Cyberdome
-          </div>
           <h2 className="text-base font-black text-[#1E1B4B] tracking-wider uppercase">
             TRACEGRID WORKSTATION
           </h2>
