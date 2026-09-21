@@ -31,9 +31,6 @@ export const Topbar: React.FC<TopbarProps> = ({
             <Shield className="w-4 h-4 text-[#ED1B24]" />
           </div>
           <span className="font-extrabold tracking-wide text-xs sm:text-sm">TRACEGRID</span>
-          <span className="text-[#64748B] text-[11px] font-normal hidden lg:inline border-l border-[#CBD5E1] pl-2 ml-0.5">
-            Cyber Centre of Excellence
-          </span>
         </button>
       </div>
 
