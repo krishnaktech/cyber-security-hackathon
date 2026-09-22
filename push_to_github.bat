@@ -1,6 +1,6 @@
 @echo off
 echo =======================================================
-echo   TraceGrid - Push to GitHub Helper
+echo   Yuktam - Push to GitHub Helper
 echo =======================================================
 echo.
 
@@ -35,7 +35,7 @@ echo Staging project files...
 git add .
 
 echo Committing files...
-git commit -m "Initial commit - TRACEGRID forensic intelligence platform" 2>nul
+git commit -m "Initial commit - YUKTAM forensic intelligence platform" 2>nul
 
 echo.
 echo Pushing branch 'main' to GitHub...

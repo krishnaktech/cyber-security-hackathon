@@ -30,7 +30,7 @@ export const Topbar: React.FC<TopbarProps> = ({
           <div className="w-7 h-7 rounded-lg bg-[#1E1B4B] flex items-center justify-center text-white shadow-xs">
             <Shield className="w-4 h-4 text-[#ED1B24]" />
           </div>
-          <span className="font-extrabold tracking-wide text-xs sm:text-sm">TRACEGRID</span>
+          <span className="font-extrabold tracking-wide text-xs sm:text-sm">YUKTAM</span>
         </button>
       </div>
 

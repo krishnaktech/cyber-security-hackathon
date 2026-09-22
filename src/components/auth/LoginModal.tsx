@@ -62,7 +62,7 @@ export const LoginModal: React.FC<LoginModalProps> = ({
             <Shield className="w-7 h-7 text-[#ED1B24]" />
           </div>
           <h2 className="text-base font-black text-[#1E1B4B] tracking-wider uppercase">
-            TRACEGRID WORKSTATION
+            YUKTAM WORKSTATION
           </h2>
           <p className="text-xs text-[#64748B] mt-1">
             Law Enforcement & Cyber Crime Intelligence Portal

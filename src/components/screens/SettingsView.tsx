@@ -153,7 +153,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                 type="button"
                 onClick={onLogout}
                 className="w-full sm:w-auto px-4 py-2 rounded-lg bg-[#ED1B24]/10 hover:bg-[#ED1B24]/20 border border-[#ED1B24]/30 text-[#ED1B24] text-xs font-bold flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer active:scale-98"
-                title="Log out of TRACEGRID workstation"
+                title="Log out of YUKTAM workstation"
               >
                 <LogOut className="w-3.5 h-3.5 text-[#ED1B24]" />
                 <span>Log Out</span>

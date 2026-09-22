@@ -69,11 +69,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
       <div className="px-5 py-4 border-b border-[#E2E8F0]">
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 rounded-lg bg-[#1E1B4B] flex items-center justify-center text-white font-black text-xs tracking-wider shrink-0 shadow-xs border border-[#383278]">
-            <span className="text-[#ED1B24] font-black">T</span>G
+            <span className="text-[#ED1B24] font-black">Y</span>K
           </div>
           <div className="min-w-0">
             <h1 className="font-extrabold text-xs tracking-wider text-[#1E1B4B] leading-none">
-              TRACEGRID
+              YUKTAM
             </h1>
             <p className="text-[9px] text-[#383278] font-bold tracking-wider uppercase mt-1 truncate flex items-center gap-1">
               <span className="w-1.5 h-1.5 rounded-full bg-[#ED1B24] inline-block animate-pulse" />

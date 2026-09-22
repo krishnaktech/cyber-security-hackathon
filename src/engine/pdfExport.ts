@@ -24,7 +24,7 @@ export function exportInvestigationBriefPdf(
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(16);
   doc.setFont('helvetica', 'bold');
-  doc.text('TRACEGRID FORENSIC WORKSTATION', 14, 12);
+  doc.text('YUKTAM FORENSIC WORKSTATION', 14, 12);
 
   doc.setFontSize(9);
   doc.setFont('helvetica', 'normal');
@@ -198,13 +198,13 @@ export function exportInvestigationBriefPdf(
     doc.setFontSize(7.5);
     doc.setTextColor(148, 163, 184); // slate-400
     doc.text(
-      `TRACEGRID v1.0 • Case ${caseData.caseId} • Synthetic investigation dataset for authorized use only • Page ${i} of ${totalPages}`,
+      `YUKTAM v1.0 • Case ${caseData.caseId} • Synthetic investigation dataset for authorized use only • Page ${i} of ${totalPages}`,
       14,
       doc.internal.pageSize.getHeight() - 8
     );
   }
 
-  doc.save(`TRACEGRID_Investigation_Brief_${caseData.caseId}.pdf`);
+  doc.save(`YUKTAM_Investigation_Brief_${caseData.caseId}.pdf`);
 }
 
 export function exportCaseJson(caseData: any) {
@@ -213,7 +213,7 @@ export function exportCaseJson(caseData: any) {
   )}`;
   const downloadAnchor = document.createElement('a');
   downloadAnchor.setAttribute('href', jsonString);
-  downloadAnchor.setAttribute('download', `TRACEGRID_CaseFile_${caseData?.caseId || 'CF-2026-001'}.json`);
+  downloadAnchor.setAttribute('download', `YUKTAM_CaseFile_${caseData?.caseId || 'CF-2026-001'}.json`);
   document.body.appendChild(downloadAnchor);
   downloadAnchor.click();
   downloadAnchor.remove();

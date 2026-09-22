@@ -1,5 +1,5 @@
 /**
- * TRACEGRID Forensic Normalization Engine
+ * YUKTAM Forensic Normalization Engine
  * Ensures consistent canonical identifiers across disparate digital artifacts.
  */
 

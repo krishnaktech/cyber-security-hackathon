@@ -1,5 +1,5 @@
 /**
- * TRACEGRID Forensic Cryptographic Hashing Engine
+ * YUKTAM Forensic Cryptographic Hashing Engine
  * Computes and validates SHA-256 cryptographic fingerprints using Web Crypto API.
  */
 

@@ -40,7 +40,7 @@ const upload = multer({ storage: multer.memoryStorage() });
 app.get('/api/health', (req, res) => {
   res.json({
     status: 'HEALTHY',
-    service: 'TRACEGRID Forensic Intelligence API',
+    service: 'YUKTAM Forensic Intelligence API',
     version: '1.0.0',
     port: PORT,
     timestamp: new Date().toISOString(),
@@ -514,6 +514,6 @@ app.get('/api/brief', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`[TRACEGRID] Backend API running at http://127.0.0.1:${PORT}`);
-  console.log(`[TRACEGRID] Health Check: http://127.0.0.1:${PORT}/api/health`);
+  console.log(`[YUKTAM] Backend API running at http://127.0.0.1:${PORT}`);
+  console.log(`[YUKTAM] Health Check: http://127.0.0.1:${PORT}/api/health`);
 });

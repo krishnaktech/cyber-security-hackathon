@@ -64,7 +64,7 @@ export const InvestigationBrief: React.FC<InvestigationBriefProps> = ({
       fundFlowSteps,
       timelineEvents,
       exportedAt: new Date().toISOString(),
-      formatVersion: 'TRACEGRID-1.0-FORENSIC-JSON',
+      formatVersion: 'YUKTAM-1.0-FORENSIC-JSON',
     };
     exportCaseJson(fullCaseBundle);
   };
